@@ -1,5 +1,18 @@
 # Hermes
 
+## Installation
+
+1. Fork the project
+```bash
+git clone https://github.com/nurpa/hermes.git
+```
+
+2. Download the dependencies by your own or using the shell script provided
+```bash
+chmod +x dependencies.sh
+/bin/bash ./dependencies.sh
+```
+
 ## Dependencies
 
 * [wkhtmltopdf](https://code.google.com/p/wkhtmltopdf/downloads/list)
