@@ -7,7 +7,7 @@ fi
 
 # vars
 
-if [ $(uname -m) == "x86_64" ]; then
+if [ "$(uname -m)" == "x86_64" ]; then
   BIN="64"
   ARCH="amd64"
 else
