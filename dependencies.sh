@@ -42,7 +42,7 @@ wget -q "https://wkhtmltopdf.googlecode.com/files/wkhtmltopdf-0.11.0_rc1-static-
 if [ "$?" = 0 ]; then
   echo "wkhtmltopdf ($BIN bit): done"
 
-  tar -xjf *.tar.bz2
+  tar -xjf wkhtmltopdf-*.tar.bz2
 
   if [ "$?" = 0 ]; then
     rm -f wkhtmltopdf-*.tar.bz2 && chmod +x wkhtmltopdf-* && mv wkhtmltopdf-* pdf/
