@@ -12,9 +12,9 @@ $lang = array(
 
   // form
   'type-of-letter'               => 'Types of letters',
-  'information-checkbox-label'   => '<strong>Request for information:</strong><br> Ask the SNCB/NMBS and the <abbr title="Commission for the Protection of Privacy">CPP</abbr> if your personal information was in the leaked file.',
-  'opposition-checkbox-label'    => '<strong>Opposition to the use of your data:</strong><br> Ask the SNCB/NMBS whether they have information about you and, if this is the case, ask them to stop using it.',
-  'complaint-checkbox-label'     => '<strong>Complaint:</strong><br /> Ask the <abbr title="Commission for the Protection of Privacy">CPP</abbr> whether your personal information was in the leaked file and, if this is the case, make a complaint against the SNCB/NMBS.',
+  'information-checkbox-label'   => '<strong>Request for information:</strong><br> Ask the SNCB/NMBS and the <abbr title="Commission for the Protection of Privacy">CPP</abbr> whether your personal data are in the leaked file.',
+  'opposition-checkbox-label'    => '<strong>Opposition to the use of your data:</strong><br> Ask the SNCB/NMBS whether they have information about you and, if they do, ask them to stop using it.',
+  'complaint-checkbox-label'     => '<strong>Complaint:</strong><br /> Ask the <abbr title="Commission for the Protection of Privacy">CPP</abbr> whether your personal data are in the leaked file and, if so, file a complaint against the SNCB/NMBS.',
   'person-contact-details'       => 'Contact details',
   'firstname'                    => 'First name',
   'lastname'                     => 'Last name',
