@@ -37,7 +37,7 @@ $lang = array(
   'step-wait'                    => 'Jetzt müssen Sie nur noch geduldig auf eine Antwort warten.',
 
   // footer
-  'footer-text'                  => 'Diese Anwendung wurde von <a href="http://nurpa.be">NURPA</a> erstellt and ist Freie Software unter der <a href="https://www.gnu.org/licenses/agpl-3.0.html">aGPLv3+ License</a><br/>Illustration CC BY-NC-SA <a href="https://secure.flickr.com/photos/andrew_bolin/3909446250/">&bdquo;Train Station&ldquo; by Andrew Bolin</a><br/>Hosting, deutsche Version, Bugfixes: <a href="http://digitalcourage.de/">digitalcourage</a> (vormals FoeBuD)',
+  'footer-text'                  => 'Diese Anwendung wurde von <a href="http://nurpa.be">NURPA</a> erstellt and ist Freie Software unter der <a href="https://www.gnu.org/licenses/agpl-3.0.html">aGPLv3+ License</a><br/>Illustration CC BY-NC-SA <a href="https://secure.flickr.com/photos/andrew_bolin/3909446250/">&bdquo;Train Station&ldquo; by Andrew Bolin</a>',
 
 // -- templates
 
