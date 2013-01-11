@@ -6,6 +6,9 @@ require_once './config.php';
 // Main functions
 require_once './functions.php';
 
+// Mail
+$mail = __('mail');
+
 ?>
 <!doctype html>
 <html lang="en">
@@ -104,21 +107,8 @@ require_once './functions.php';
     <p><?= __('footer-text') ?></p>
   </div>
   <script>
-<?php
-
-  $data = array(
-    'mail_cpvp' => __('info-cpp'),
-    'mail_sncb' => __('info-sncb'),
-  );
-
-?>
-    window.lang = <?= json_encode($data) ?>
+    window.lang = <?= json_encode($mail) ?>
   </script>
-  <!--
-    This script contains the following files:
-    ./jquery.js
-    ./main.js
-  -->
   <script src="./js/mini.js"></script>
 </body>
 </html>

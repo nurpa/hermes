@@ -30,9 +30,9 @@ $lang = array(
   'what-should-i-do'             => 'Que faire à présent ?',
   'step-print-pdf'               => 'Imprimez le fichier PDF que vous venez de créer ;',
   'step-print-id'                => 'Puisque les demandes d’opposition à l’usage des données et les plaintes nécessitent de prouver son identité, photocopiez votre carte d’identité ou imprimez une copie scannée. Joignez une copie à chaque courrier ;',
-  'step-mail-cpvp'               => 'Envoyez le texte suivant par e-mail à l’adresse <a href="mailto:commission@privacycommission.be">commission@privacycommission.be</a> ;<div class="mail-cpvp"></div>',
-  'step-mail-sncb'               => 'Envoyez le texte suivant par e-mail à l’adresse <a href="mailto:internet-int@b-rail.be">internet-int@b-rail.be</a> ;<div class="mail-sncb"></div>',
-  'step-mails'                   => 'Envoyez le texte suivant par e-mail à l’adresse <a href="mailto:internet-int@b-rail.be">internet-int@b-rail.be</a> (SNCB) et à <a href="mailto:commission@privacycommission.be">commission@privacycommission.be</a> (<abbr title="Commission pour la Protection de la Vie Privée">CPVP</abbr>)<div class="mail-sncb"></div>',
+  'step-mail-cpvp'               => 'Envoyez le texte suivant par e-mail à l’adresse <a href="mailto:commission@privacycommission.be">commission@privacycommission.be</a> ;<div class="mail"></div>',
+  'step-mail-sncb'               => 'Envoyez le texte suivant par e-mail à l’adresse <a href="mailto:internet-int@b-rail.be">internet-int@b-rail.be</a> ;<div class="mail"></div>',
+  'step-mails'                   => 'Envoyez le texte suivant par e-mail à l’adresse <a href="mailto:internet-int@b-rail.be">internet-int@b-rail.be</a> (SNCB) et à <a href="mailto:commission@privacycommission.be">commission@privacycommission.be</a> (<abbr title="Commission pour la Protection de la Vie Privée">CPVP</abbr>)<div class="mail"></div>',
   'step-send-letters'            => 'Envoyez le(s) lettre(s) imprimée(s) aux adresses correspondantes. Celles-ci sont mentionnées sur les lettres ;',
   'step-wait'                    => 'Vous n’avez plus qu’à attendre patiemment une réponse.',
 
@@ -124,29 +124,9 @@ Rue de la Presse, 35<br/>
 </ol>
 </div>',
 
-  // CPP mail
-  'info-cpp' => '
+  // mail info
+  'mail' => '
 <p>Objet : Demande d’informations relatives à la divulgation de mes données à caractère personnel par la SNCB Europe dans le courant de l’année 2012.</p>
-
-<p>Madame,<br/>Monsieur,</p>
-
-<p>Par la présente, je souhaite obtenir des informations relatives à la divulgation de mes données à caractère personnel dans le cadre de la fuite dont s’est rendue coupable la SNCB Europe dans le courant de l’année 2012 [1].</p>
-<p>Dans l’hypothèse d’une présence positive d’une ou de plusieurs donnée(s) susmentionnée(s) dans le fichier divulgué, je souhaite obtenir <em>in extenso</em> le détail des données concernées.</p>
-<p>Je vous remercie d’avance de la suite que vous voudrez bien accorder à la présente et demeure dans l’attente de vos nouvelles.</p>
-<p>Veuillez agréer, Madame, Monsieur, l’expression de ma considération distinguée.</p>
-
-<p>__firstname__ __lastname__</p>
-<p>
-__postal_address__<br/>
-__postal_code__ __city__<br/>
-__country__</p>
-<p>__email__</p>
-
-<p>[1] http://www.lalibre.be/actu/belgique/article/788247/fuite-de-donnees-a-la-sncb-le-fichier-etait-disponible-depuis-mai.html</p>',
-
-  // SNCB mail
-  'info-sncb' => '
-<p>Objet:  Demande d’informations relatives à la divulgation de mes données à caractère personnel dans le courant de l’année 2012.</p>
 
 <p>Madame,<br/>Monsieur,</p>
 

@@ -30,9 +30,9 @@ $lang = array(
   'what-should-i-do'             => 'What should I do now?',
   'step-print-pdf'               => 'Print the PDF file you have just created;',
   'step-print-id'                => 'Since you need to prove your identity for any request to object to the processing of your personal data, please make a photo copy of your ID card or print a scanned copy and attach it to each letter;',
-  'step-mail-cpvp'               => 'Send this text by email to <a href="mailto:commission@privacycommission.be">commission@privacycommission.be</a> ;<div class="mail-cpvp"></div>',
-  'step-mail-sncb'               => 'Send this text by email to <a href="mailto:internet-int@b-rail.be">internet-int@b-rail.be</a> ;<div class="mail-sncb"></div>',
-  'step-mails'                   => 'Send this text by email to <a href="mailto:internet-int@b-rail.be">internet-int@b-rail.be</a> (SNCB) and to <a href="mailto:commission@privacycommission.be">commission@privacycommission.be</a> (<abbr title="Commission for the Protection of Privacy">CPP</abbr>)<div class="mail-sncb"></div>',
+  'step-mail-cpvp'               => 'Send this text by email to <a href="mailto:commission@privacycommission.be">commission@privacycommission.be</a> ;<div class="mail"></div>',
+  'step-mail-sncb'               => 'Send this text by email to <a href="mailto:internet-int@b-rail.be">internet-int@b-rail.be</a> ;<div class="mail"></div>',
+  'step-mails'                   => 'Send this text by email to <a href="mailto:internet-int@b-rail.be">internet-int@b-rail.be</a> (SNCB) and to <a href="mailto:commission@privacycommission.be">commission@privacycommission.be</a> (<abbr title="Commission for the Protection of Privacy">CPP</abbr>)<div class="mail"></div>',
   'step-send-letters'            => 'Send the printed letter(s) to the relevant adresse(s). These ones are mentioned in the letters;',
   'step-wait'                    => 'Now you just have to wait patiently for a reply.',
 
@@ -124,28 +124,8 @@ Rue de la Presse, 35<br/>
 </div>',
 
   // mail info
-  'info-cpp' => '
+  'mail' => '
 <p>Subject: Request for information regarding the disclosure of my personal data by SNCB Europe in 2012.</p>
-
-<p>Dear Sir or Madam,</p>
-
-<p>I hereby request access to information regarding the disclosure of my personal data as a result of the data leak caused by SNCB Europe in 2012 [1].</p>
-<p>Assuming that some or several of the abovementioned data are present in the leaked data base, I would like to receive all relevant information on these data in extenso. In addition, I would like to exercice my right to object to their processing. </p>
-<p>Thank you in advance for your actions in this regard.</p>
-<p>Yours sincerely,</p>
-
-<p>__firstname__ __lastname__</p>
-<p>
-__postal_address__<br/>
-__postal_code__ __city__<br/>
-__country__</p>
-<p>__email__</p>
-
-<p>[1] http://www.lalibre.be/actu/belgique/article/788247/fuite-de-donnees-a-la-sncb-le-fichier-etait-disponible-depuis-mai.html</p>',
-
-  // SNCB mail
-  'info-sncb' => '
-<p>Subject: Request for information regarding the disclosure of my personal data in 2012.</p>
 
 <p>Dear Sir or Madam,</p>
 

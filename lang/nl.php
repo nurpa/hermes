@@ -28,9 +28,9 @@ $lang = array(
   'what-should-i-do'             => 'Wat moet ik nu doen?',
   'step-print-pdf'               => 'Druk het PDF bestand dat net aangemaakt werd af;',
   'step-print-id'                => 'Aangezien je je identiteit moet aantonen bij elke aanvraag moet je een kopie van je identiteitskaart, als fotokopie of als ingescande kopie, toevoegen bij elke brief;',
-  'step-mail-cpvp'               => 'Verzend deze tekst via email naar <a href="mailto:commission@privacycommission.be">commission@privacycommission.be</a> ;<div class="mail-cpvp"></div>',
-  'step-mail-sncb'               => 'Verzend deze tekst via email naar <a href="mailto:internet-int@b-rail.be">internet-int@b-rail.be</a> ;<div class="mail-sncb"></div>',
-  'step-mails'                   => 'Verzend deze tekst via email naar <a href="mailto:internet-int@b-rail.be">internet-int@b-rail.be</a> (SNCB) en naar <a href="mailto:commission@privacycommission.be">commission@privacycommission.be</a>  (<abbr title="Commissie voor de bescherming von de persoonlijke levenssfeer">CBPL</abbr>)<div class="mail-sncb"></div>',
+  'step-mail-cpvp'               => 'Verzend deze tekst via email naar <a href="mailto:commission@privacycommission.be">commission@privacycommission.be</a> ;<div class="mail"></div>',
+  'step-mail-sncb'               => 'Verzend deze tekst via email naar <a href="mailto:internet-int@b-rail.be">internet-int@b-rail.be</a> ;<div class="mail"></div>',
+  'step-mails'                   => 'Verzend deze tekst via email naar <a href="mailto:internet-int@b-rail.be">internet-int@b-rail.be</a> (SNCB) en naar <a href="mailto:commission@privacycommission.be">commission@privacycommission.be</a>  (<abbr title="Commissie voor de bescherming von de persoonlijke levenssfeer">CBPL</abbr>)<div class="mail"></div>',
   'step-send-letters'            => 'Verstuur de afgedrukte brief/brieven naar het/de betreffende adres(sen). Deze staan vermeld op de brieven;',
   'step-wait'                    => 'Nu moet je geduldig wachten op een antwoord.',
 
@@ -122,32 +122,12 @@ Rue de la Presse, 35<br/>
 </div>',
 
   // mail info
-  'info-cpp' => '
+  'mail' => '
 <p>Onderwerp: Informatieaanvraag  betreffende de verspreiding van mijn  persoonlijke gegevens door SNCB  Europe in 2012.</p>
 
 <p>Beste Heer of Dame,</p>
 
 <p>Met deze brief wens ik  informatie aan te vragen betreffende de verspreiding van mijn  persoonlijke gegevens als resultaat van de data lek veroorzaakt door SNCB Europe in 2012 <sup>1</sup>.</p>
-<p>In de veronderstelling  dat sommige of meerdere van bovengenoemde informatie aanwezig is in de  gelekte database, zou ik alle relevante informatie betreffende deze  informatie in extenso willen ontvangen. Vervolgens zou ik ook van mijn  recht gebruik willen maken om bezwaar in te dienen tegen het verwerken  van mijn gegevens.</p>
-<p>Alvast dank op voorhand voor uw acties betreffende deze zaak.</p>
-<p>Hoogachtend,</p>
-
-<p>__firstname__ __lastname__</p>
-<p>
-__postal_address__<br/>
-__postal_code__ __city__<br/>
-__country__</p>
-<p>__email__</p>
-
-<p>[1] http://www.lalibre.be/actu/belgique/article/788247/fuite-de-donnees-a-la-sncb-le-fichier-etait-disponible-depuis-mai.html</p>',
-
-  // SNCB mail
-  'info-sncb' => '
-<p>Onderwerp: Informatieaanvraag  betreffende de verspreiding van mijn persoonlijke gegevens in 2012.</p>
-
-<p>Beste Heer of Dame,</p>
-
-<p>Met deze brief wens ik informatie aan te vragen betreffende de verspreiding van mijn persoonlijke gegevens als resultaat van de data lek veroorzaakt door SNCB Europe in 2012 <sup>1</sup>.</p>
 <p>In de veronderstelling  dat sommige of meerdere van bovengenoemde informatie aanwezig is in de  gelekte database, zou ik alle relevante informatie betreffende deze  informatie in extenso willen ontvangen. Vervolgens zou ik ook van mijn  recht gebruik willen maken om bezwaar in te dienen tegen het verwerken  van mijn gegevens.</p>
 <p>Alvast dank op voorhand voor uw acties betreffende deze zaak.</p>
 <p>Hoogachtend,</p>

@@ -90,8 +90,7 @@ $(function init() {
 
 
     // Prepare contents of e-mails
-    var mail_cpvp = window.lang.mail_cpvp;
-    var mail_sncb = window.lang.mail_sncb;
+    var mail = window.lang;
     var tags = {
       firstname:      $.trim($('#firstname').val()),
       lastname:       $.trim($('#lastname').val()),
@@ -107,15 +106,11 @@ $(function init() {
 
     for (var key in tags) {
       var reg = new RegExp('__' + key + '__');
-      mail_cpvp = mail_cpvp.replace(reg, tags[key]);
-      mail_sncb = mail_sncb.replace(reg, tags[key]);
+      mail = mail.replace(reg, tags[key]);
     }
 
-    $('.mail-cpvp').each(function(i, elt) {
-      $(elt).html(mail_cpvp);
-    });
-    $('.mail-sncb').each(function(i, elt) {
-      $(elt).html(mail_sncb);
+    $('.mail').each(function(i, elt) {
+      $(elt).html(mail);
     });
 
 
