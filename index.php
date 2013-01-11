@@ -23,6 +23,9 @@ $mail = __('mail');
   </div>
   <div id="nav">
     <ul>
+      <li<?php if ($GLOBALS['user_lang'] === 'de') echo ' class="current"';?>>
+        <a href="?lang=de">Deutsch</a>
+      </li>
       <li<?php if ($GLOBALS['user_lang'] === 'en') echo ' class="current"';?>>
         <a href="?lang=en">English</a>
       </li>
