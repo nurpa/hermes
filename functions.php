@@ -6,7 +6,7 @@ function __($key) {
   // Load the lang array if needed
   loadLangStrings($GLOBALS['user_lang']);
 
-  if (array_key_exists($key, $GLOBALS['lang'])) {
+  if (array_key_exists($key, $GLOBALS['lang']) && !empty($GLOBALS['lang'][$key])) {
     return $GLOBALS['lang'][$key];
   }
   elseif (array_key_exists($key, $GLOBALS['default_lang'])) {
