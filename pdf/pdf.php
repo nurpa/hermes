@@ -9,9 +9,6 @@ require_once '../functions.php';
 // Include the WkHtmlToPdf wrapper
 require_once $options['wkhtmltopdf_wrapper'];
 
-// Get user lang
-detectLang();
-
 if (
 isset($_POST['letter_type'])    && !empty($_POST['letter_type']) &&
 isset($_POST['firstname'])      && !empty($_POST['firstname']) &&
@@ -62,6 +59,9 @@ isset($_POST['user_lang'])      && !empty($_POST['user_lang'])) {
     throw new Exception('Could not create PDF: ' . $pdf->getError());
   }
 } else {
+  // Get user lang
+  detectLang();
+
   header('Location: http://' . $_SERVER['HTTP_HOST'] . '/?lang=' . $user_lang . '&error#form-error');
 }
 

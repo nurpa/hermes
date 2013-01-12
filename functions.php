@@ -25,6 +25,10 @@ function detectLang() {
     if (array_key_exists('lang', $_GET) && in_array($_GET['lang'], $supported_langs)) {
       $lang = $_GET['lang'];
     }
+    // Is there a lang specified via form submission?
+    elseif (array_key_exists('user_lang', $_POST) && in_array($_POST['user_lang'], $supported_langs)) {
+      $lang = $_POST['user_lang'];
+    }
     // If no lang was explicitly specified, we try a very
     // simplistic test against the data provided by the browser
     elseif (in_array($str = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2), $supported_langs)) {
