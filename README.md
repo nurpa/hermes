@@ -7,10 +7,10 @@
 git clone https://github.com/nurpa/hermes.git
 ```
 
-2. Download the dependencies by your own or using the shell script provided
+2. Download the dependencies and edit the config file by your own or use the shell script provided
 ```bash
-chmod +x dependencies.sh
-/bin/bash ./dependencies.sh
+chmod +x install.sh
+/bin/bash ./install.sh
 ```
 
 ## Dependencies
