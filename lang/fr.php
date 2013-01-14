@@ -24,9 +24,9 @@ $lang = array(
   'country'                      => 'Pays',
   'email'                        => 'E-mail',
   'make-letters'                 => 'Créer lettres',
-  'error-missing-args'           => '',
-  'error-pdf-creation-failed'    => '',
-  'error-missing-dependencies'   => '',
+  'error-missing-args'           => '<strong>Une erreur est survenue</strong><br/>Il est indispensable de compléter tous les champs afin de permettre d’écarter les faux-positifs lors de la recherche dans la base de données.',
+  'error-pdf-creation-failed'    => '<strong>Une erreur est survenue lors de la tentative de création du PDF</strong><br/>Essayez à nouveau. Si l’erreur persiste, merci de signaler le problème à contact@nurpa.be.',
+  'error-missing-dependencies'   => '<strong>Dépendances manquantes</strong><br/>Merci de signaler le problème à contact@nurpa.be.',
 
   // steps
   'what-should-i-do'             => 'Que faire à présent ?',
