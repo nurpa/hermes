@@ -6,6 +6,14 @@ require_once '../config.php';
 // Main functions
 require_once '../functions.php';
 
+// Get user lang
+detectLang();
+
+// Look for dependencies
+if (!file_exists($options['wkhtmltopdf_wrapper']) || !file_exists($options['bin'])) {
+  header('Location: http://' . $_SERVER['HTTP_HOST'] . '/?lang=' . $user_lang . '&error=error-missing-dependencies#form-error');
+}
+
 // Include the WkHtmlToPdf wrapper
 require_once $options['wkhtmltopdf_wrapper'];
 
@@ -55,14 +63,10 @@ isset($_POST['user_lang'])      && !empty($_POST['user_lang'])) {
 
   // Generate PDF and return it as response
   if (!$pdf->send('SNCB-dataleak_' . dechex(time()) . '.pdf')) {
-    echo 'not sent';
-    throw new Exception('Could not create PDF: ' . $pdf->getError());
+    header('Location: http://' . $_SERVER['HTTP_HOST'] . '/?lang=' . $user_lang . '&error=error-pdf-creation-failed#form-error');
   }
 } else {
-  // Get user lang
-  detectLang();
-
-  header('Location: http://' . $_SERVER['HTTP_HOST'] . '/?lang=' . $user_lang . '&error#form-error');
+  header('Location: http://' . $_SERVER['HTTP_HOST'] . '/?lang=' . $user_lang . '&error=error-missing-args#form-error');
 }
 
 ?>

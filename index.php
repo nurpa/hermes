@@ -59,7 +59,7 @@ $mail = __('mail');
     </fieldset>
     <fieldset class="contact_details">
       <legend><?= __('person-contact-details') ?></legend>
-      <?= isset($_GET['error']) ? '<p id="form-error">' . __('error-missing-args') . '</p>' : '' ?>
+      <?= (isset($_GET['error']) && substr($_GET['error'], 0, 6) == 'error-') ? '<p id="form-error">' . __($_GET['error']) . '</p>' : '' ?>
       <div>
         <label for="firstname"><?= __('firstname') ?></label>
         <input type="text" name="firstname" id="firstname">

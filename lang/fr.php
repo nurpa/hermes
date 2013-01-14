@@ -24,7 +24,9 @@ $lang = array(
   'country'                      => 'Pays',
   'email'                        => 'E-mail',
   'make-letters'                 => 'Créer lettres',
-  'error-missing-args'           => '<strong>Une erreur est survenue</strong><br/>Il est indispensable de compléter tous les champs afin de permettre d’écarter les faux-positifs lors de la recherche dans la base de données.',
+  'error-missing-args'           => '',
+  'error-pdf-cration-failed'     => '',
+  'error-missing-dependencies'   => '',
 
   // steps
   'what-should-i-do'             => 'Que faire à présent ?',

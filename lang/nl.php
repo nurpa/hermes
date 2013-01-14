@@ -22,7 +22,9 @@ $lang = array(
   'country'                      => 'Land',
   'email'                        => 'E-mail',
   'make-letters'                 => 'Aanmaken',
-  'error-missing-args'           => '<strong>An error has occurred</strong><br/>You must fill in all fields order to enable to eliminate false positives when searching the database.',
+  'error-missing-args'           => '',
+  'error-pdf-cration-failed'     => '',
+  'error-missing-dependencies'   => '',
 
   // steps
   'what-should-i-do'             => 'Wat moet ik nu doen?',
