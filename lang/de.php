@@ -25,7 +25,7 @@ $lang = array(
   'email'                        => 'E-mail',
   'make-letters'                 => 'Briefe erstellen',
   'error-missing-args'           => '<strong>Fehlende Daten</strong><br/>Sie müssen alle Felder ausfüllen, damit Ihre Daten in der Tabelle gesucht werden können und falsche Treffer möglichst vermieden werden.',
-  'error-pdf-cration-failed'     => '',
+  'error-pdf-creation-failed'    => '',
   'error-missing-dependencies'   => '',
 
   // steps

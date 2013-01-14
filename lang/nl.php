@@ -23,7 +23,7 @@ $lang = array(
   'email'                        => 'E-mail',
   'make-letters'                 => 'Aanmaken',
   'error-missing-args'           => '',
-  'error-pdf-cration-failed'     => '',
+  'error-pdf-creation-failed'    => '',
   'error-missing-dependencies'   => '',
 
   // steps

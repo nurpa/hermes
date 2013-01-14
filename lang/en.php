@@ -25,7 +25,7 @@ $lang = array(
   'email'                        => 'E-mail',
   'make-letters'                 => 'Create',
   'error-missing-args'           => '<strong>An error has occurred</strong><br/>You must fill in all fields in order to enable to eliminate false positives when searching the database.',
-  'error-pdf-cration-failed'     => '<strong>There was an error generating the PDF</strong><br/>Please, submit the form again. If the error is unrecoverable, report the issue to contact@nurpa.be.',
+  'error-pdf-creation-failed'    => '<strong>There was an error generating the PDF</strong><br/>Please, submit the form again. If the error is unrecoverable, report the issue to contact@nurpa.be.',
   'error-missing-dependencies'   => '<strong>Required dependencies are missing</strong><br/>Please report the issue to contact@nurpa.be.',
 
   // steps
