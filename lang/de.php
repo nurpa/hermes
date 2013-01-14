@@ -38,6 +38,7 @@ $lang = array(
 
   // footer
   'footer-text'                  => 'Diese Anwendung wurde von <a href="http://nurpa.be">NURPA</a> erstellt and ist Freie Software unter der <a href="https://www.gnu.org/licenses/agpl-3.0.html">aGPLv3+ License</a><br/>Illustration CC BY-NC-SA <a href="https://secure.flickr.com/photos/andrew_bolin/3909446250/">&bdquo;Train Station&ldquo; by Andrew Bolin</a>',
+  'footer-logo'                  => '<a href="http://digitalcourage.de" title="Deutsche version: digitalcourage (vormals FoeBuD)"><img src="./ui/logo_foebud.png" alt="digitalcourage (vormals FoeBuD)" /></a>',
 
 // -- templates
 

@@ -107,6 +107,10 @@ $mail = __('mail');
     </ol>
   </div>
   <div id="footer">
+    <p class="logo">
+      <a href="http://nurpa.be" title="NURPA"><img src="./ui/logo_nurpa.png" alt="NURPA" /></a>
+      <?= __('footer-logo') ?>
+    </p>
     <p><?= __('footer-text') ?></p>
   </div>
   <script>

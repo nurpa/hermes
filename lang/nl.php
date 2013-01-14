@@ -36,6 +36,7 @@ $lang = array(
 
   // footer
   'footer-text'                  => 'Deze tool werd u aangeboden door <a href="http://nurpa.be">NURPA</a> en is als vrije software beschikbaar onder de <a href="https://www.gnu.org/licenses/agpl-3.0.html">aGPLv3+ Licentie</a><br/>Fotografie CC BY-NC-SA <a href="https://secure.flickr.com/photos/andrew_bolin/3909446250/">« Train Station » by Andrew Bolin</a>',
+  'footer-logo'                  => '',
 
 // -- templates
 
