@@ -15,7 +15,7 @@ $mail = __('mail');
 <head>
   <meta charset="UTF-8">
   <title><?= __('main-form-page-title') ?></title>
-  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="./ui/main.css">
 </head>
 <body>
   <div id="header">

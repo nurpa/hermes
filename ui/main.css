@@ -22,7 +22,7 @@ a:hover {
   height: 300px;
   margin-top: 30px;
   margin-bottom: 40px;
-  background: #000 url('http://imgs.be/50ebaeec-1783.png') no-repeat center left;
+  background: #000 url('header.jpg') no-repeat center left;
 }
 
 h1 {
@@ -133,7 +133,7 @@ fieldset > div + div {
   cursor: pointer;
   display: inline-block;
   padding: .5em 0 .5em 40px;
-  background: url('http://imgs.be/50ebd0ef-1d6d.png') left -147px no-repeat;
+  background: url('checkbox.png') left -147px no-repeat;
 }
 .checkbox.checked + label {
   background-position: left 8px;
@@ -289,10 +289,28 @@ hr {
 
 
 #footer {
+  position: relative;
   height: 83px;
   margin-top: 3em;
   border-top: 1px solid #999;
   font-size: .8em;
   text-align: right;
-  background: transparent url(http://nurpa.be/files/nurpa-logo-small.png) no-repeat scroll 0 15px;
+}
+#footer .logo {
+  position: absolute;
+  top: 1em;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+#footer .logo a {
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+}
+#footer .logo a + a {
+  margin-left: 1em;
+}
+#footer .logo a img {
+  border: none;
 }
