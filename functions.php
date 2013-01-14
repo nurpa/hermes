@@ -6,11 +6,17 @@ function __($key) {
   // Load the lang array if needed
   loadLangStrings($GLOBALS['user_lang']);
 
+  // if the key exists in the given language array and is not empty
   if (array_key_exists($key, $GLOBALS['lang']) && !empty($GLOBALS['lang'][$key])) {
     return $GLOBALS['lang'][$key];
   }
-  elseif (array_key_exists($key, $GLOBALS['default_lang'])) {
+  // else if the key exists in the default language array and is not empty
+  elseif (array_key_exists($key, $GLOBALS['default_lang']) && !empty($GLOBALS['default_lang'][$key])) {
     return $GLOBALS['default_lang'][$key];
+  }
+  // else if the key exists in the default language array
+  elseif (array_key_exists($key, $GLOBALS['lang'])) {
+    return $GLOBALS['lang'][$key];
   }
   else {
     throw new Exception('Lang key "' . $key . '" does not exist');
