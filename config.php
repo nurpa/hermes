@@ -1,6 +1,12 @@
 <?php
 
 $options = array(
+  // Available languages
+  'supported_langs' => array('en', 'fr', 'nl', 'de'),
+
+  // Default application language
+  'default_lang' => 'en',
+
   // Path to tho wkhtmltopdf binary relative to pdf/pdf.php
   'bin' => './wkhtmltopdf-i386',
 

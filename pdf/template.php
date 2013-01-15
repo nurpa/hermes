@@ -3,15 +3,8 @@
 // Main functions
 require_once '../functions.php';
 
-?>
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <link rel="stylesheet" media="all" href="template.css" />
-</head>
-
-<?php
+// Get user lang
+detectLang();
 
 $firstname      = htmlspecialchars(trim($_GET['firstname']));
 $lastname       = htmlspecialchars(trim($_GET['lastname']));
@@ -26,10 +19,13 @@ $q              = htmlspecialchars(trim($_GET['q']));
 $postal_address = nl2br(trim($postal_address));
 $date = date('d/m/Y', time());
 
-// Set user lang
-$GLOBALS['user_lang'] = $user_lang;
-
 ?>
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" media="all" href="template.css" />
+</head>
 
 <body>
 <?php
@@ -55,19 +51,15 @@ $replace = array(
   $country,
   $email,
   $date,
-  $GLOBALS['user_lang']
+  $user_lang
 );
 
 if (isset($q) && preg_match('/opposition/i', $q)) {
-  $opposition = str_replace($search, $replace, __('opposition'));
-
-  echo $opposition;
+  echo str_replace($search, $replace, __('opposition'));
 }
 
 if (isset($q) && preg_match('/complaint/i', $q)) {
-  $complaint = str_replace($search, $replace, __('complaint'));
-
-  echo $complaint;
+  echo str_replace($search, $replace, __('complaint'));
 }
 
 ?>

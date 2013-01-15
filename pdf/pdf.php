@@ -1,9 +1,6 @@
 <?php
 
-// Include options
-require_once '../config.php';
-
-// Main functions
+// Main functions and config
 require_once '../functions.php';
 
 // Get user lang
@@ -36,7 +33,6 @@ isset($_POST['user_lang'])      && !empty($_POST['user_lang'])) {
   $city           = $_POST['city'];
   $country        = $_POST['country'];
   $email          = $_POST['email'];
-  $user_lang      = $_POST['user_lang'];
 
   $q = implode('-', $letter_types);
 
@@ -45,19 +41,16 @@ isset($_POST['user_lang'])      && !empty($_POST['user_lang'])) {
 
   $pdf->setOptions(array('bin' => $options['bin']));
 
-  // Generate pages
-  $url =
-    '"' . $options['letter_template_url'] . '?' .
-    'firstname=' . urlencode($firstname) .
-    '&lastname=' . urlencode($lastname) .
-    '&postal_address=' . urlencode($postal_address) .
-    '&postal_code=' . urlencode($postal_code) .
-    '&city=' . urlencode($city) .
-    '&country=' . urlencode($country) .
-    '&email=' . urlencode($email) .
-    '&q=' . urlencode($q) .
-    '&user_lang=' . urlencode($user_lang) .
-    '"';
+  $url = '"' . $options['letter_template_url']
+    . '?firstname=' . urlencode($firstname)
+    . '&lastname=' . urlencode($lastname)
+    . '&postal_address=' . urlencode($postal_address)
+    . '&postal_code=' . urlencode($postal_code)
+    . '&city=' . urlencode($city)
+    . '&country=' . urlencode($country)
+    . '&email=' . urlencode($email)
+    . '&q=' . urlencode($q)
+    . '&user_lang=' . urlencode($user_lang) . '"';
 
   $pdf->addPage($url);
 
