@@ -1,9 +1,6 @@
 <?php
 
-// Include options
-require_once './config.php';
-
-// Main functions
+// Main functions and config
 require_once './functions.php';
 
 // Mail
